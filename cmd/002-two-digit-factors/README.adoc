@@ -1,0 +1,8 @@
+= Two Digit Factors
+
+Given a whole number `n`, find any two 2-digit numbers whose product is the
+number.
+
+== Solution Notes
+
+It follows that `n` is between 10 x 10 and 99 x 99 or 100 and 9801.

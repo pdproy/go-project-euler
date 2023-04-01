@@ -22,11 +22,12 @@ func twoFactors(n int) (int, int) {
 	return first, second
 }
 
+func compute(n int) {
+	first, second := twoFactors(n)
+	fmt.Printf("factors of %d are: %d, %d\n", n, first, second)
+}
 func main() {
-	n1 := 1221
-	n2 := 3233
-	first, second := twoFactors(n1)
-	fmt.Printf("factors of %d are: %d, %d\n", n1, first, second)
-	first, second = twoFactors(n2)
-	fmt.Printf("factors of %d are: %d, %d\n", n2, first, second)
+	compute(1221)
+	compute(3233)
+	compute(300)
 }
